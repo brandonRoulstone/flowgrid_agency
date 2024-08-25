@@ -1,7 +1,9 @@
+"use client"
 import Image from "next/image";
+import HomePage from "@/Components/HomePage";
 
 export default function Home() {
   return <>
-    <h1 className="">Hello wrld</h1>
+    <HomePage />
   </>
 }
